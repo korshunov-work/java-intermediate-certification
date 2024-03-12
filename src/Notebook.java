@@ -8,8 +8,8 @@ public class Notebook {
     private String videoCard = "";
     private String processor = "";
 
-    // Конструктор нашего ноутбука.
-    public Notebook(int capacityRAM, int capacityMemory, String operatingSystem, String color, String videoCard, String processor) {
+    public Notebook(int capacityRAM, int capacityMemory, String operatingSystem, String color,
+                    String videoCard, String processor) {
         this.capacityMemory = capacityMemory;
         this.capacityRAM = capacityRAM;
         this.operatingSystem = operatingSystem;
@@ -18,7 +18,6 @@ public class Notebook {
         this.processor = processor;
     }
 
-    // Геттеры, сеттеры
     public String getProcessor() {
         return processor;
     }
